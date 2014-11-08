@@ -1,0 +1,11 @@
+.parent {
+    display:table;
+    min-height: 500px;
+}
+
+.vcenter {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
