@@ -12,4 +12,4 @@ def hello_world():
 if __name__ == '__main__':
     app.debug = True
     app.config.from_object('config')
-    app.run()
+    app.run(host='0.0.0.0')
